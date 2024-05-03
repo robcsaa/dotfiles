@@ -1,0 +1,39 @@
+#!/bin/bash
+
+sudo pacman -S git
+git clone https://aur.archlinux.org/paru.bin 
+cd paru
+makepkg -si
+del
+
+paru -S go firefox-nightly-bin pacseek-git # or something better...
+paru -S zsh lolcat snapper tumbler pywal nvim virtualbox man-db cider cava cider qt5ct breeze edex-ui \ swww zsh-autocomplete-git torbrowser-launcher
+#install ohmyzsh/p10k
+
+#gpu/screen
+paru -S wdisplays wlroots-nvidia
+
+#ricing
+sudo pacman -S feh #image viewer 
+
+alias initial="nvim ~/Documents/scripts/initial"
+alias todo="nvim ~/Documents/proj/todo" 
+
+sudo usermod -aG vboxusers x
+sudo modprobe vboxdrv
+echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist.conf
+
+#sudo nano /etc/inputrc
+#set bell-style none
+
+
+#################################################
+#Potential good ones
+#
+# glpaper #moving wallpaper
+# https://github.com/raihan2000/visualizer # potential audio visualiser
+# cli-visualizer #audio visualizer
+#
+#
+#
+#

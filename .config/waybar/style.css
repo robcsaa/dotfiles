@@ -1,0 +1,165 @@
+/* primer diseño teniendo en cuenta paleta de colores de pywal */
+
+@import '/home/x/.cache/wal/colors-waybar.css';
+
+@define-color bg @background;
+@define-color fg @foreground;
+@define-color textcolor @cursor;
+
+
+* {
+	font-family: "JetbrainsMono Nerd Font";
+	font-size: 15px;
+	border: none;
+	border-radius: 0px;
+}
+
+
+#window {
+	margin-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	transition: none;
+	color: transparent;
+	background: transparent;
+}
+
+window#waybar {
+	background: none;
+} 
+
+
+
+window#waybar.hidden {
+	opacity: 0.2;
+}
+
+
+
+.modules-left,
+.modules-center,
+.modules-right {
+	padding: 0 5px;
+	margin: 5px;
+}
+
+/** common properties **/
+#workspaces,
+#memory,
+#tray,
+#network,
+#pulseaudio,
+#cpu,
+#clock,
+#custom-wallpaper,
+#custom-backlight,
+#custom-exit {
+	margin: 0px;
+	border-radius: 20px;
+	background: @bg;
+	color: @cursor;
+}
+
+
+
+#custom-exit {
+	margin-left: 0px;
+}
+
+#clock {
+	margin-right: 0px;
+}
+
+
+#workspaces {
+	padding: 0 20px;
+	border-radius: 20px;
+	/** transition: none; **/
+}
+
+#workspaces button {}
+
+#workspaces button.active {
+	font-weight: bold;
+	border-bottom: 2px solid @fg;
+	border-radius: 0px;
+	color: @color8;
+}
+
+
+#custom-wallpaper {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: @color3
+}
+
+#network {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	transition: none;
+	color: @color5;
+}
+
+#pulseaudio {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: @color6;
+}
+
+#custom-backlight {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: @color3;
+}
+
+#clock {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	font-weight: bold;
+	color: @fg;
+
+}
+
+#memory {
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	transition: none;
+	color: @color5;
+}
+
+
+#custom-exit{
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	transition: none;
+	color: @color7;
+}
+
+#cpu {
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	transition: none;
+	color: @color6;
+}
+
+#tray {
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	transition: none;
+	color: @color7;
+}

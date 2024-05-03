@@ -1,0 +1,18 @@
+#!bin/bash
+cp * --> git 
+cp ~/.config/hypr/hyprland.conf
+cp ~/.config/kitty/kitty.conf
+cp ~/.config/waybar/config.jsonc
+cp ~/.config/waybar/style.css
+cp ~/Documents/man/
+cp ~/Documents/proj/
+cp ~/Documents/scripts/
+cp ~/Pictures/
+cp ~/
+
+
+
+
+sudo add 
+sudo commit
+sudo push
