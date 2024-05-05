@@ -1,18 +1,13 @@
 #!bin/bash
-cp * --> git 
-cp ~/.config/hypr/hyprland.conf
-cp ~/.config/kitty/kitty.conf
-cp ~/.config/waybar/config.jsonc
-cp ~/.config/waybar/style.css
-cp ~/Documents/man/
-cp ~/Documents/proj/
-cp ~/Documents/scripts/
-cp ~/Pictures/
-cp ~/
 
+cp ~/.config/hypr/hyprland.conf ~/git/dotfiles/.config/hypr
+cp ~/.config/kitty/kitty.conf ~/git/dotfiles/.config/kitty
+cp ~/.config/waybar/config.jsonc ~/git/dotfiles/.config/waybar
+cp ~/.config/waybar/style.css ~/git/dotfiles/.config/waybar
+cp -r ~/.config/themes ~/git/dotfiles/.config
+cp -r ~/Documents/man/ ~/git/dotfiles/Documents
+cp -r ~/Documents/proj/ ~/git/dotfiles/Documents
+cp -r ~/Documents/scripts/ ~/git/dotfiles/Documents
+cp -r ~/Pictures/ ~/git/dotfiles/Pictures
+cp ~/.zshrc ~/git/dotfiles
 
-
-
-sudo add 
-sudo commit
-sudo push
