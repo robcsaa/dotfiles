@@ -3,11 +3,13 @@
 cp ~/.config/hypr/hyprland.conf ~/git/dotfiles/.config/hypr
 cp ~/.config/kitty/kitty.conf ~/git/dotfiles/.config/kitty
 cp ~/.config/waybar/config.jsonc ~/git/dotfiles/.config/waybar
-cp ~/.config/waybar/style.css ~/git/dotfiles/.config/waybar
+cp ~/.config/waybar/style.css ~/git/dotfiles/.config/wayibar
 cp -r ~/.config/themes ~/git/dotfiles/.config
-cp -r ~/Documents/man/ ~/git/dotfiles/Documents
-cp -r ~/Documents/proj/ ~/git/dotfiles/Documents
-cp -r ~/Documents/scripts/ ~/git/dotfiles/Documents
-cp -r ~/Pictures/ ~/git/dotfiles/Pictures
+cp -r ~/Documents/man/  ~/git/dotfiles/Documents
+cp -r ~/Documents/proj/  ~/git/dotfiles/Documents
+cp -r ~/Documents/scripts/  ~/git/dotfiles/Documents
+cp -r ~/Documents/install/ ~/git/dotfiles/Documents
+cp -r ~/Documents/useful/  ~/git/dotfiles/Documents
+cp -r ~/Pictures/* ~/git/dotfiles/Pictures
 cp ~/.zshrc ~/git/dotfiles
 
