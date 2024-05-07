@@ -1,0 +1,4 @@
+default root location for nginx is /usr/share/nginx/html
+sites enabled is site/server settings /etc/nginx/sites-enabled/foo_bar
+
+
