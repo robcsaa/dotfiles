@@ -1,0 +1,2 @@
+whereis = find all locations of an application
+pidof = find pid of a given running application
