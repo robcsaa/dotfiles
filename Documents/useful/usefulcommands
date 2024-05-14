@@ -1,2 +1,16 @@
+    Files/Aplications
 whereis = find all locations of an application
+
+    System control
 pidof = find pid of a given running application
+pgrep = find pid of a given running application if you only know part of the name
+
+    Networking
+netstat -na | grep "PORT" see what is using a certain port
+ss = check open ports and see what they do 
+
+    Information
+whatis = ask shell what a certain app/command is
+
+
+
