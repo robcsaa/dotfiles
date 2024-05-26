@@ -7,8 +7,8 @@ makepkg -si
 del
 
 paru -S go firefox-nightly-bin pacseek-git # or something better...
-paru -S zsh lolcat snapper tumbler pywal nvim virtualbox man-db cider cava cider qt5ct breeze edex-ui \ swww zsh-autocomplete-git torbrowser-launcher cmatrix kde-connect colorpicker-git pacman -S blueman bluez bluez-utils nomachine ranger \ clamav clamtk 
-
+paru -S zsh lolcat snapper tumbler pywal nvim virtualbox man-db cider cava cider qt5ct breeze edex-ui \ swww zsh-autocomplete-git torbrowser-launcher cmatrix kde-connect colorpicker-git pacman -S blueman bluez bluez-utils nomachine ranger 
+\ clamav clamtk thonny python-pipenv
 #configute/enable bluetooth
 #install ohmyzsh/p10k
 

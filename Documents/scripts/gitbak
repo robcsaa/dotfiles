@@ -10,6 +10,8 @@ cp -r ~/Documents/proj/  ~/git/dotfiles/Documents
 cp -r ~/Documents/scripts/  ~/git/dotfiles/Documents
 cp -r ~/Documents/install/ ~/git/dotfiles/Documents
 cp -r ~/Documents/useful/  ~/git/dotfiles/Documents
+cp -r ~/Documents/pythonvenv ~/git/dotfiles/Documents
+cp -r ~/Documents/pico/  ~/git/dotfiles/Documents
 cp -r ~/Pictures/ ~/git/dotfiles/
 cp ~/.zshrc ~/git/dotfiles
 
